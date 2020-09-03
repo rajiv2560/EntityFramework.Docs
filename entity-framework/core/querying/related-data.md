@@ -87,7 +87,7 @@ ORDER BY [b].[BlogId]
 ```
 
 > [!NOTE]
-> One-to-one related entities are always loaded via JOINs, as this has no performance impact.
+> One-to-one related entities are always loaded via JOINs in the same query, as this has no performance impact.
 
 #### Enabling split queries globally
 
